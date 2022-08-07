@@ -28,9 +28,9 @@ minute: 'numeric',
 second: 'numeric'
 })
 
-gc1 = 'https://chat.whatsapp.com/GDSdQlUvcvj4tti6fROPHR'
-gc2 = 'https://chat.whatsapp.com/FNDWauX031OI6I3u7QjrHO'
-gc3 = 'https://chat.whatsapp.com/E1befxNQq4jGsPKmpaBmnv'
+gc1 = 'https://chat.whatsapp.com/JLm7nyMWymE8ATQHyHWxsv'
+gc2 = 'https://chat.whatsapp.com/JLm7nyMWymE8ATQHyHWxsv'
+gc3 = 'https://chat.whatsapp.com/JLm7nyMWymE8ATQHyHWxsv'
 
 function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
@@ -55,9 +55,9 @@ function pickRandom(list) {
 }*/
 
 global.DeveloperMode = 'false' //Buat Mode True False Moderator
-global.linkGC = ['https://chat.whatsapp.com/GDSdQlUvcvj4tti6fROPHR'] // ganti jadi group lu
-global.owner = ['6288289338073','6282157312489'] // Ganti jadi nomor lu ajg nanti ngechat bot lu pas sv database
-global.mods = ['6288289338073'] // Want some help?
+global.linkGC = ['https://chat.whatsapp.com/JLm7nyMWymE8ATQHyHWxsv'] // ganti jadi group lu
+global.owner = ['62858528731555','62858528731555'] // Ganti jadi nomor lu ajg nanti ngechat bot lu pas sv database
+global.mods = ['62858528731555'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -93,11 +93,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'SHINN - BOT'
+global.packname = 'NEKO - BOT'
 global.author = '۰ \n\n\n\n'
 
 // silakan di ganti klo mau
-global.botwm = `SHINN - BOT 🧋`//UBAH JADI NAMAMU
+global.botwm = `NEKO - BOT 🧋`//UBAH JADI NAMAMU
 global.botdate = `❏ ${time}\n❏ ${week} ${date}\n`
 global.imagebot = `https://camo.githubusercontent.com/731b10bfd3953a64e30cda4bbca274829a645755b034dabbe38be45a0d3174f2/68747470733a2f2f777777362e666c616d696e67746578742e636f6d2f6e65742d66752f70726f78795f666f726d2e6367693f26696d6167656f75747075743d74727565267363726970743d736b657463682d6e616d6526646f5363616c653d74727565267363616c6557696474683d353030267363616c654865696768743d35303026666f6e7473697a653d3130302666696c6c54657874547970653d312666696c6c546578745061747465726e3d5761726e696e6726746578743d4f6e65253230426f747a`
 global.logo = fs.readFileSync('./src/logo3.jpg')
